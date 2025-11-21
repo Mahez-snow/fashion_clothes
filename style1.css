@@ -1,0 +1,67 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+body{
+    background-image: url("./Fashionbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.heading kbd{
+    position: absolute;
+    top: 50px;
+    left:200px;
+    color: rgb(201, 201, 201);
+    font-family: 'Arial', sans-serif;
+}
+.mycontainer{
+    position:absolute;
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 500px;
+    height: 400px;
+    left: 120px;
+    top: 140px;
+    padding: 20px 40px;
+}
+.input-1{
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 40px;
+}
+.input-2{
+    position: relative;
+    width: 100%;
+    top: 60px;
+    height:40px;
+}
+.mycontainer .button-1 button{
+    position: relative;
+    width:100% ;
+    height: 40px;
+    top: 90px;
+    color: white;
+    border: none;
+    background-color: red;
+}
+.mycontainer p{
+    position: relative;
+    color: white;
+    font-size: large;
+}
+.mycontainer i{
+    position: absolute;
+    color: white;
+    top: 25px;
+    right: 45px;
+}
+.anker{
+    position: relative;
+    top:140px;
+}

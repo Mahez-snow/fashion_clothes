@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+.container{
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+    width: 400px;
+    height:650px;
+    padding: 0;
+}
+.line{
+    position:relative;
+    margin: 0;
+    height: 10px;
+    background-color: rgb(44, 205, 44);
+    
+}
+.container-1{
+    padding: 20px 40px;
+}
+.label-1{
+    position: relative;
+    top: 20px;
+    color: black;
+}
+.container-1 input{
+    width: 100%;
+}
+.label-2{
+    position: relative;
+    top: 30px;
+    color: black;
+}
+.label-2 input{
+    width: 100%;
+}
+.label-3{
+    position: relative;
+    top: 40px;
+    color: black;
+}
+.label-3 input{
+    width: 100%;
+}
+.radio-1{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+}
+.radio-2{
+    position: absolute;
+    top: 270px;
+    left: 120px;
+}
+.label-4{
+    position: relative;
+    top:90px;
+}
+.label-5{
+    position: relative;
+    top:90px;
+}
+.button-1 ,button{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 40px;
+    border: transparent;
+    background-color: rgb(44, 205, 44) ;
+    color: white;
+}

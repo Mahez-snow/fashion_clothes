@@ -1,0 +1,206 @@
+
+body{
+    margin: 0;
+}
+.model-video video{
+    position: relative;
+    top: 100px;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.header{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    border: 2px rgb(255, 197, 197);
+    background-color: rgb(253, 103, 103);
+}
+.header a{
+    position:absolute;
+    right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+.fashion-marquee  marquee{
+  position:static;
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: #000000;
+  padding: 20px;
+  text-shadow: 1px 1px 2px #ff1515;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.fashion-marquee{
+    position: absolute;
+    border:transparent;
+    width: 100%;
+    height: 50px;
+    top:20px;
+    padding-left: 100px;
+}
+.list-class li{
+    position: relative;
+    top:100px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 105px;
+    color: white;
+}
+.list-class{
+    position:absolute;
+    display: flex;
+    height: 40px;
+    top:40px;
+    border:transparent;
+    padding: 0%;  
+}
+.list-class li a{
+    text-decoration: none;
+    color: white;
+}
+.list-class option{
+    text-align: center;
+    top:50%;
+}
+
+.list-class select{
+    background-color: #444;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size:small;
+    text-align: center;
+}
+.why-shop {
+  background-color: #fff8f8;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.why-shop h2 {
+  font-size: 32px;
+  color: #d63384;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.reasons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reason {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s , box-shadow 0.3s ;
+}
+
+.reason:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgb(255, 58, 170);
+}
+
+.reason span {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+  color: #c2185b;
+}
+
+.reason h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.reason p {
+  font-size: 15px;
+  color: #666;
+}
+.footer-point{
+    position: absolute;
+    margin-bottom: 0%;
+    border: transparent;
+    width: 100%;
+    height: 200px;
+    background-color: #d63384;
+}
+.footer {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  padding: 50px 20px 20px; /*Top left right*/
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h3, .footer h4 {
+  color: #ff69b4;
+}
+
+.footer-about, .footer-contact, .footer-links {
+    position: relative;
+  flex: 1 1 250px;/*hence they can shrink based on screen size */
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-about p, .footer-contact p, .footer-links ul {
+    position: relative;
+    
+  font-size: 14px;
+  line-height: 1.6;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #ff69b4;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #aaa;
+}
